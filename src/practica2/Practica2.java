@@ -8,5 +8,11 @@ public class Practica2 {
 		this.numero=numero;
 		this.registro=registro;
 	}
-
+	public int getNumbero() {
+		return this.numero;
+		
+	}
+	public double getRegistro() {
+		return this.registro;
+	}
 }
