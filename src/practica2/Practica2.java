@@ -15,4 +15,9 @@ public class Practica2 {
 	public double getRegistro() {
 		return this.registro;
 	}
+		
+	public void setNumero(int numero){
+		this.numero=numero;
+	  }
+	
 }
