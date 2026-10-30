@@ -20,4 +20,8 @@ public class Practica2 {
 		this.numero=numero;
 	  }
 	
+	public void setRegistro (double registro){
+		this.registro=registro;
+	}
+	
 }
