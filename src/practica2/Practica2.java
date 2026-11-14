@@ -25,6 +25,7 @@ public class Practica2 {
 	}
 	public boolean aprobado() {
 		return this.registro>=5;
+	
 	}
 	public boolean suspenso() {
 	    return this.registro < 5;
