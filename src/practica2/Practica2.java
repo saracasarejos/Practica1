@@ -23,8 +23,11 @@ public class Practica2 {
 	public void setRegistro (double registro){
 		this.registro=registro;
 	}
-	public boolean aprobad() {
+	public boolean aprobado() {
 		return this.registro>=5;
+	}
+	public boolean suspenso() {
+	    return this.registro < 5;
 	}
 }
 
