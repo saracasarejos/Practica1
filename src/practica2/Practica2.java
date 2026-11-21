@@ -19,13 +19,11 @@ public class Practica2 {
 	public void setNumero(int numero){
 		this.numero=numero;
 	  }
-	
 	public void setRegistro (double registro){
 		this.registro=registro;
 	}
 	public boolean aprobado() {
 		return this.registro>=5;
-	
 	}
 	public boolean suspenso() {
 	    return this.registro < 5;
